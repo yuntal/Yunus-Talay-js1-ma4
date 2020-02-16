@@ -20,7 +20,7 @@ function handleJson(json) {
     let html = "";
 
     results.forEach(function(result) {
-        let imageUrl = "https://via.placeholder.com/250";
+        let imageUrl = "/path/to/image";
 
         if (result.image) {
             imageUrl = result.image;
